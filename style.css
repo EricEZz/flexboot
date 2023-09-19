@@ -14,6 +14,8 @@ html,
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    border-radius: 10px;
+    margin: 10px;
 }
 .card-title{
     font-size: 2.2rem;
@@ -26,4 +28,17 @@ html,
 }
 .card-price{
     font-size: 1.2rem;
+}
+.container{
+    display: flex;
+    width: 73vw;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem auto;
+    padding: 20px;
+}
+.header{
+    text-align: center;
+    font-size: 100px;
 }
